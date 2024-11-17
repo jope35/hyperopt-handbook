@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "hyperopt-handbook"
+version = "0.1.0"
+description = ""
+authors = ["jope35 <15650945+jope35@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[virtualenvs]
+create = true
+in-project = true
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+altair = { extras = ["all"], version = "^5.4.1" }
+gif = "^23.3.0"
+# ptitprince = "^0.2.7"
+hyperopt = "^0.2.7"
+hiplot = "^0.1.33"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
